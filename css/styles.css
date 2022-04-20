@@ -607,9 +607,6 @@ body{
     font-size: 40px;
     text-align: center;
 }
-.imagenes{
-   
-}
 .imagen1{
     grid-area: imagen1;
     grid-column: 1/2;
