@@ -86,8 +86,9 @@ body{
     grid-area: principal__imagen;
     grid-column: 1/4;
     grid-row: 2/3;
+    margin-top: 30px;
     width: 1345px;
-    height: 500px;
+    height: 450px;
     margin-left: 1px;
 }
 .nosotros__imagen{
