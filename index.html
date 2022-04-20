@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sdy Suspensión</title>
     <link rel="shortcut icon" href="images/logo2.png">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -27,8 +28,11 @@
             <!-- <img class="principal__imagen" src="images/SDY (2 de 11).JPG"alt="imagenportada"> -->
         </div>
         <main class="nosotros">
-            <img class="nosotros__imagen" data-aos="flip-left" src="images/SDY (7 de 11).JPG" alt="imagenespiral">   
-            <div class="nosotros__tituloParrafo">
+            <img data-aos="zoom-in" data-aos-easing="ease-out-cubic"
+            data-aos-duration="1500" class="nosotros__imagen" data-aos="flip-left" src="images/SDY (7 de 11).JPG" alt="imagenespiral">   
+            <div data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1500" class="nosotros__tituloParrafo">
                 <h1 class="nosotros__titulo" >Nosotros</h1>
                 <p class="nosotros__p" > Somos una empresa con más de 12 años de trayectoria en el rubro, nos destacamos por la calidad de nuestro servicio personalizado y la selección de nuestros proveedores. Es por eso que nuestros clientes nos eligen día a día.</p>
             </div>
@@ -51,7 +55,11 @@
         <footer class="footer">
             <p class="footer__p" >Sdy suspensión - Todos los derechos reservados - Diseño por Tomás Ferreyra</p>
         </footer>
-    </div>      
+    </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>      
 </body>
 
 </html>
