@@ -564,7 +564,9 @@ body{
 .conteiner{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(3, 440px));
-  
+    grid-auto-rows: minmax(200px, auto);
+    gap: 20px;
+    padding: 20px;
 }
 .menu__galeria{
     
@@ -625,8 +627,8 @@ body{
     border: solid black 3px;
     grid-column: 2/4;
     grid-row: 3/4;
-    width: 750px;
-    height: 225px;
+    width: 200px;
+    height: 200px;
 }
 .imagen3{
     background-color: #D72323;
