@@ -140,28 +140,18 @@ body{
 }
 .marcas__imagenFord{
     height: 150px;
-    width: 350px;
-    transition: 1s;    
+    width: 350px;    
 }
-.marcas__imagenFord:hover{
-    transform: scale(1.5, 1.5);
-}
+
 .marcas__imagenHonda{
     height: 150px;
     width: 300px;
-    transition: 1s;
 }
-.marcas__imagenHonda:hover{
-    transform: scale(1.5, 1.5);
-}    
+   
 .marcas__imagenBmw{
     height: 150px;
     width: 350px;
-    transition: 1s;
 }
-.marcas__imagenBmw:hover{
-    transform: scale(1.5, 1.5);
-}    
 .proveedores{
     grid-area: proveedores;
     grid-column: 1/4;
