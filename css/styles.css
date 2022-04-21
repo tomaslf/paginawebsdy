@@ -140,18 +140,31 @@ body{
 }
 .marcas__imagenFord{
     height: 150px;
-    width: 350px;    
+    width: 350px;
+    transition: 0.5s;    
 }
+.marcas__imagenFord:hover{
+    transform: scale(1.5, 1.5);
+}    
 
 .marcas__imagenHonda{
     height: 150px;
     width: 300px;
+    transition: 0.5s;
+    
 }
+.marcas__imagenHonda:hover{
+    transform: scale(1.3, 1.3);
+}    
    
 .marcas__imagenBmw{
     height: 150px;
     width: 350px;
+    transition: 0.5s;
 }
+.marcas__imagenBmw:hover{
+    transform: scale(1.3, 1.3);
+}    
 .proveedores{
     grid-area: proveedores;
     grid-column: 1/4;
@@ -661,7 +674,7 @@ body{
     background-color: #D72323;
     border: solid black 3px;
 }
-/* .footer__galeria{
+.footer__galeria{
     grid-area: footer__galeria;
     grid-column: 1/4;
     grid-row: 7/8;
@@ -669,8 +682,8 @@ body{
     font-size: 15px;
     text-align: center;
     border: solid 1px black;
-    font-weight: bold;   
-} */
+    font-weight: bold;
+}
 
 
 
