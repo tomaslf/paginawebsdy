@@ -775,21 +775,34 @@ body{
     background-image:linear-gradient(black,rgba(0, 0, 0, 0.411)), url(../images/SDY\ \(7\ de\ 11\).JPG);
     background-position:center;    
 }
-.contacto{
+#tituloContacto{
     font-style: normal;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     margin-top: 20px;
+    margin-left: 600px;
     color: #ffffff;
 }
-.formulario{
-    background-color: white;
+.form{
+    display: flex;
+    justify-content: center;
+}
+#formulario{
+    height: 100vh;
+    background-image: linear-gradient(to bottom, white, rgba(167, 164, 164, 0.699));
     font-family: 'Anton', sans-serif;
     font-size: 15px;
     text-align: center;
-    margin: 10px 350px 50px 350px;
-    padding: 5px 150px 5px 150px;
+    /* margin-left: 400px; */
+    padding: 10px;
+    margin-bottom: 10px;
+    /* padding: 5px 150px 5px 150px; */
     color: #020202;
+    border: solid black 2px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .formulario legend{
     text-align: center;
@@ -816,12 +829,15 @@ body{
     margin: 10px 350px 5px 450px;
 }
 
-/* .logoIg{
-    position: sticky;
-    top: 20px;
+#logoIg{
     width: 50px;
     height: 50px;
-    margin-left: 10px; */
+    margin-left: 1250px;
+    margin-bottom: 30px;
+    
+    
+}
+
 .footer{
     grid-area: footer;
     grid-column: 1/4;

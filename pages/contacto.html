@@ -12,6 +12,7 @@
 </head>
     
 <body>
+  
     <div class="container-fluid" id="fondoContacto">
         <header class="row navbar-dark bg-dark" id="header">
             <img class="col-lg-4" src="../images/sdylogo1.png" width="400" height="80" alt="sdylogo">       
@@ -40,20 +41,25 @@
                 </div>
               </nav>
         </header>
-        <h1 class="contacto" >Contacto</h1>
-            <form action="">
-                <fieldset class="formulario" >
+        <h1 class="row" id="tituloContacto" >Contacto</h1>
+        
+            <form data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000" class="form" action="">
+                <fieldset class="row col-lg-4" id="formulario" >
                     <div class="input-group input-group-lg">
                         <span class="input-group-text">Nombre y Apellido</span>
-                        <input type="text" aria-label="nombre" class="form-control">
-                        <input type="text" aria-label="apellido" class="form-control">
+                        <input type="text" aria-label="nombreyapellido" class="form-control">                        
                     </div>
                     <div class="input-group input-group-lg">
-                        <input type="text" class="form-control" placeholder="Correo Electrónico" aria-label="correoelectronico" aria-describedby="basic-addon2">
-                        <span class="input-group-text" id="basic-addon2">@gmail.com</span>
+                        <input type="email" class="form-control" placeholder="Correo Electrónico" aria-label="correoelectronico" aria-describedby="basic-addon2">
+                        <span class="input-group-text" id="basic-addon2">@example.com</span>
                       </div>
-                      <input class="input-group input-group-lg" type="text" aria-label="nombre" class="form-control" placeholder="Teléfono">
-                    <label for="">Cómo desea ser contactado</label>
+                      <div class="input-group input-group-lg">
+                        <span class="input-group-text" id="inputGroup-sizing-default">Teléfono</span>
+                        <input type="number" class="form-control" aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+                      </div>
+                      <label for="">Cómo desea ser contactado</label>
                     <div class="form-check">
                         <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
                         <label class="form-check-label" for="flexRadioDefault1">
@@ -69,13 +75,17 @@
                     <label for="consulta">Ingrese su consulta</label>
                     <div class="input-group">
                         <span class="input-group-text">Su consulta</span>
-                        <textarea class="form-control" placeholder="Consulta (Especificar marca, modelo y año)" cols="30" rows="10" aria-label="Consulta (Especificar marca, modelo y año)"> </textarea>
+                        <textarea class="form-control"  cols="30" rows="10" aria-label="su consulta"> </textarea>
                       </div>
-                    <input type="submit" value="Enviar">
-                    <input type="reset" value="Limpiar">             
-    
-                </fieldset>
-            </form>    
+                      <input type="submit" class="btn-check" id="btn-check-2" >
+                      <label class="btn btn-primary" value="submit" for="btn-check-2">Enviar</label>
+                      <input type="reset" class="btn-check" id="btn-check-2">
+                      <label class="btn btn-primary" value="reset" for="btn-check-2">Limpiar</label>                 
+                </fieldset>                
+            </form>
+            <div>
+              <a href="https://www.instagram.com/sdy_suspension/"> <img id="logoIg" class="fixed-bottom" src="../images/logoig.png"  alt=""></a>
+            </div>    
         <footer class="row">
             <p id="footer__p" >Sdy suspensión - Todos los derechos reservados - Diseño por Tomás Ferreyra</p>
         </footer> 
