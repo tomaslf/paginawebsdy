@@ -13,22 +13,64 @@
         
 <body>
     
-    <div class="contenidoServicios">
-        <header class="menu__servicios">
-            <img class="servicios__logo" src="../images/sdylogo1.png" alt="sdylogo">       
-            <nav>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="../pages/servicios.html">Servicios</a></li>
-                    <li><a href="../pages/galeriadeimagenes.html">Galeria de imágenes</a></li>
-                    <li><a href="../pages/contacto.html">Contacto</a></li>
-                    <li><a href="../pages/dondeestamos.html">Dónde estamos</a></li>
-                </ul>
-            </nav>
-        </header>     
+    <div class="container-fluid">
+        <header class="row navbar-dark bg-dark" id="header">
+            <img class="col-lg-4" src="../images/sdylogo1.png" width="400" height="80" alt="sdylogo">       
+            <nav class="navbar navbar-expand-lg col-lg-8">
+             <div class="container-fluid">
+                  <a class="navbar-brand" href="../index.html" id="inicio">Inicio</a>
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                      <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../pages/servicios.html">Servicios</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/galeriadeimagenes.html">Galeria de Imágenes</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="../pages/dondeestamos.html">Dónde Estamos</a>
+                      </li>
+                    </ul>                    
+                  </div>
+                </div>
+              </nav>
+        </header>
         <section>
-                <h2 class="servicios__titulo">Servicios</h2>                                     
-          <div class="tipoServicios">
+                <h2 class="row" id="servicios__titulo">Servicios</h2>
+                <div class="card-group">
+                    <div class="card">
+                      <img src="../images/imagenfija.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h2 class="card-title text-center">Suspensiones Regulables</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate iure vitae rerum obcaecati eos sit Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ea Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo eligendi soluta maiores, natus ut accusamus ducimus voluptates dolor nisi veritatis!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure error libero dignissimos quidem vitae voluptatibus soluta aliquam cupiditate nesciunt. Voluptates.
+                        </p>
+                     </div>
+                    </div>
+                    <div class="card">
+                      <img src="../images/imagenregulablee.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h2 class="card-title text-center">Suspensiones Fijas</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate iure vitae rerum obcaecati eos sit Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ea Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo eligendi soluta maiores, natus ut accusamus ducimus voluptates dolor nisi veritatis!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure error libero dignissimos quidem vitae voluptatibus soluta aliquam cupiditate nesciunt. Voluptates.</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img src="../images/vertical.jpg" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h2 class="card-title text-center">Mecanica Integral</h2>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate iure vitae rerum obcaecati eos sit Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ea Lorem ipsum dolor sit, amet consectetur adipisicing elit. Illo eligendi soluta maiores, natus ut accusamus ducimus voluptates dolor nisi veritatis!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure error libero dignissimos quidem vitae voluptatibus soluta aliquam cupiditate nesciunt. Voluptates.</p>
+                      </div>
+                    </div>
+                  </div>
+                
+
+
+          <!-- <div class="tipoServicios">
             <article class="fija">
                 <div class="fija__imagen">
                     <img data-aos="zoom-in" class="imagenF" src="../images/imagenfija.jpg" alt="fija">
@@ -56,13 +98,13 @@
                 <p class="mecanica__p" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, hic quaerat. In corporis perferendis natus consectetur. Laborum, quas dolor quaerat veritatis exercitationem amet dignissimos assumenda nemo, quo facere mollitia delectus! Voluptas natus magnam non impedit similique culpa, iusto velit minus rem obcaecati alias consequatur ullam voluptate amet! Nemo sit ratione veniam voluptas at, dolor molestias repellat itaque tempora! Doloribus nobis praesentium enim sequi, suscipit sapiente maxime quisquam ea ullam quis cupiditate veniam ipsum dolore iusto adipisci quia explicabo laborum aut!<p>
                 </div>                                                
             </article>   
-          </div>
+          </div> -->
         </section>
         <div>
             <a href="https://www.instagram.com/sdy_suspension/"> <img id="logoIg" class="fixed-bottom" src="../images/logoig.png"  alt=""></a>
           </div>    
-        <footer class="footer__servicios">
-            <p class="footer__p" >Sdy suspensión - Todos los derechos reservados - Diseño por Tomás Ferreyra</p>
+        <footer class="row">
+            <p id="footer__p" >Sdy suspensión - Todos los derechos reservados - Diseño por Tomás Ferreyra</p>
         </footer>   
     </div>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
