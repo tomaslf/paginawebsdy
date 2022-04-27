@@ -17,552 +17,8 @@ body{
     
    
 }
-/* CONTENIDO HOME */
-.contenidoHome{    
-    display: grid;
-    grid-template-areas:
-                         "menu menu menu"
-                         "principal__imagen principal__imagen principal__imagen"
-                         "nosotros nosotros nosotros"
-                         "marcas marcas marcas"
-                         "proveedores proveedores proveedores"
-                         "footer footer footer";
-    grid-template-columns: auto auto auto;
-    grid-template-rows: 10% 80% auto auto auto auto ;
-    height: 100vh; 
-}
 
 /* HEADER */
-.menu{
-    grid-area: menu;
-    grid-column: 1/4;
-    grid-row: 1/2;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    font-family: tajawal-medium;
-    font-size: 25px;
-    background-color: #3e36368c;
-}
-.menu__logo{
-    margin-top: 15px;
-    width: 400px;
-    height: 80px;
-    margin-left: 30px;
-}
-.menu nav ul{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    text-align: center;
-    margin-right: 20px;
-    margin-top: 10px;
-}
-.menu nav ul li a{
-    text-decoration: none;
-    padding: 8px;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    cursor: pointer;
-}
-.menu li a:hover{
-    background-color: #D72323;
-    transition: 1s;
-    padding: 2px;
-}
-.nosotros{
-    grid-area: nosotros;
-    grid-column: 1/4;
-    grid-row: 3/4;
-    display: flex;
-    justify-content: center;
-    background-color: #F5EDED;
-}
-.principal__imagen{
-    grid-area: principal__imagen;
-    grid-column: 1/4;
-    grid-row: 2/3;
-    margin-top: 15px;
-    width: 1345px;
-    height: 500px;
-    margin-left: 1px;
-}
-.nosotros__imagen{
-   width: 550px;
-   height: 250px;
-   margin-top: 15px;
-   margin-bottom: 15px;
-   margin-left: 8px;
-   border-radius: 6px;
-}
-.nosotros__titulo{
-    text-align: left;
-    font-size: 30px;
-    margin-left: 10px;
-    margin-top: 15px;
-    color: #3E3636;
-}
-.nosotros__p{
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 5px;
-    font-size: 20px;
-    color: #3E3636;
-    border: solid 2px #3E3636;
-    padding: 15px;
-}
-.marcas{
-    grid-area: marcas;
-    grid-column: 1/4;
-    grid-row: 4/5;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    padding: 30px;
-    background-image: linear-gradient(to bottom, #3E3636, #F5EDED);
-}
-.marcas__titulo{
-    font-style: normal;
-    text-align: center;
-    font-size: 30px;
-    color: #F5EDED;
-}
-.marcas__imagenes{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 20px;
-}
-.marcas__imagenFord{
-    height: 150px;
-    width: 350px;
-    transition: 0.5s;    
-}
-.marcas__imagenFord:hover{
-    transform: scale(1.5, 1.5);
-}    
-
-.marcas__imagenHonda{
-    height: 150px;
-    width: 300px;
-    transition: 0.5s;
-    
-}
-.marcas__imagenHonda:hover{
-    transform: scale(1.3, 1.3);
-}    
-   
-.marcas__imagenBmw{
-    height: 150px;
-    width: 350px;
-    transition: 0.5s;
-}
-.marcas__imagenBmw:hover{
-    transform: scale(1.3, 1.3);
-}    
-.proveedores{
-    grid-area: proveedores;
-    grid-column: 1/4;
-    grid-row: 5/6;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: #e6e6e6;
-    padding-bottom: 30px;
-    background-image: linear-gradient(black,rgba(0, 0, 0, 0.507)), url(../images/espirales.jpg);
-    background-position: center;    
-}
-.proveedores__titulo{
-    font-style:normal;
-    text-align: center;
-    font-size: 30px;
-    padding: 20px;
-    margin-top: 5px;
-    margin-bottom: 15px;
-    color: #F5EDED;
-}
-.proveedores__imagenes{
-    margin-top: 10px;
-    margin-bottom: 50px;
-}
-.proveedores__imagen302{
-    height: 100px;
-    width: 350px;
-    margin-top: 4px;
-    margin-right: 5px;
-    
-}
-.proveedores__imagenone{
-    height: 100px;
-    width: 350px;
-}
-@media (max-width: 360px){
-    .contenidoHome{
-        grid-template-areas:
-                         "menu"
-                         "principal__imagen"
-                         "nosotros"
-                         "marcas"
-                         "proveedores"
-                         "footer";
-    grid-template-columns: 360px;
-    grid-template-rows: 20% auto auto auto auto 9% ;
-    }
-    .menu{
-        width: 350px;
-    }
-    .menu nav ul{
-        display: flex;
-        flex-direction: column;
-        align-content: space-between;
-        font-size: 10px;
-        text-align: center;
-    }
-    .menu__logo{
-        width: 220px;
-    }
-    .principal__imagen{
-        width: 350px;
-        margin-left: 5px;
-        height: 250px;
-    }
-    .nosotros{
-        display: flex;
-        flex-direction: column;
-        align-content: space-between;
-        margin-right: 30px;
-        
-    }
-    .nosotros__imagen{
-        display: none;
-    }
-    .nosotros__p{
-        margin-top: 2px;
-        margin-bottom: 6px;
-        
-    }
-    .marcas{
-        display: flex;
-        flex-direction: column;
-        align-content: space-between;
-        width: 350px;
-    }
-    .marcas__titulo{
-        font-size: 25px;
-    }
-    .marcas__imagenes{
-        display: flex;
-        flex-direction: column;
-        align-content: space-between;
-        align-content: center;
-        width: 320px;    
-    }
-    .marcas__imagenBmw{
-        width: 300px;
-    }
-    .marcas__imagenFord{
-        width: 300px;
-    }
-    .marcas__imagenHonda{
-        margin-top: 20px;
-    }
-    .proveedores{
-        margin-right: 25px;
-    }
-    .proveedores__imagenOne{
-        margin-left: 50px;
-        margin-top: 20px;
-    }
-    .proveedores__imagen302{
-        margin-left: 5px;
-    }
-    .footer{
-        width: 360px;
-        height: 45px;
-    } 
-}
-
-/* CONTENIDO SERVICIOS */
-.contenidoServicios{
-    display: grid;
-    grid-template-areas: 
-                        "menu__servicios menu__servicios menu__servicios"
-                        "servicios__titulo servicios__titulo servicios__titulo"
-                        "fija__imagen regulable__imagen mecanica__imagen"
-                        "fija__tituloP regulable__tituloP mecanica__tituloP"
-                        "footer__servicios footer__servicios footer__servicios";
-    grid-template-columns: 440px 440px 440px;
-    grid-template-rows: 10% 40% 400px 250px 2%;
-    height: 100vh;
-    width: 1320px;    
-}
-.menu__servicios{
-    grid-area: menu__servicios;
-    grid-column: 1/4;
-    grid-row: 1/2;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    list-style: none;
-    font-family: tajawal-medium;
-    font-size: 25px;
-    background-color: #3e36368c;
-}
-.servicios__logo{
-    width: 400px;
-    height: 80px;
-    margin-left: 30px;
-}
-.menu__servicios nav ul{
-    display: flex;
-    justify-content: space-between;
-    list-style: none;
-    text-align: center;
-    margin-right: 20px;
-}
-.menu__servicios nav ul li a{
-    text-decoration: none;
-    padding: 8px;
-    color: rgb(255, 255, 255);
-    text-transform: uppercase;
-    cursor: pointer;
-}
-.menu__servicios li a:hover{
-    background-color: #D72323;
-    transition: 1s;
-    padding: 2px;
-}    
-#servicios__titulo{
-    grid-area: servicios__titulo;
-    grid-column: 1/4;
-    grid-row: 2/3;
-    height: 250px;
-    padding-top: 80px;
-    margin-bottom: 20px;
-    font-style: normal;
-    color: #ffffff;
-    font-size: 50px;
-    background-image: linear-gradient(black, rgba(0, 0, 0, 0.507)), url(../images/bancodetrabajo.jpg);
-    background-position: center;    
-}
-.tipoServicios{
-    margin-top: 10px;
-    display: flex;
-    justify-content: space-between;
-}
-.fija{
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    margin: 5px;  
-}
-.fija__imagen{    
-    grid-area: fija__imagen;
-    grid-column: 1/2;
-    grid-row: 3/4;
-    width: 440px;
-    height: 400px;    
-}
-.imagenF{
-    border-radius: 10px;
-    width: 440px;
-    height: 400px;
-}
-.fija__tituloP{
-    grid-area: fija__tituloP;
-    grid-column: 1/2;
-    grid-row: 4/5;
-    margin-top: 12px;
-}
-.fija__titulo{ 
-    font-style: normal;
-    text-align: center;
-    font-size: 25px;
-    color: #ffffff;
-}
-.fija__p{  
-    text-align: center;
-    font-size: 15px;
-    color: #ffffff;
-    text-align: justify;
-    margin-top: 10px;
-}
-.regulable{    
-    display: flex;
-    flex-direction: column;
-    align-content: space-between; 
-    margin: 5px;
-}
-.regulable__imagen{
-    grid-area: regulable__imagen;
-    grid-column: 2/3;
-    grid-row: 3/4;       
-    width: 440px;
-    height: 400px; 
-}
-.imagenR{
-    border-radius: 10px;
-    width: 440px;
-    height: 400px;
-}
-.regulable__tituloP{
-    grid-area: regulable__tituloP;
-    grid-column: 2/3;
-    grid-row: 4/5;
-
-}
-.regulable__titulo{   
-    font-style: normal;
-    text-align: center;
-    color: #ffffff;
-    font-size: 25px;
-    margin-top: 10px;
-}
-.regulable__p{ 
-    text-align: center;
-    font-size: 15px;
-    color: #ffffff;
-    text-align: justify;
-    margin-top: 10px;
-}    
-.mecanica{
-    display: flex;
-    flex-direction: column;
-    align-content: space-between;
-    margin: 5px;    
-}
-.mecanica__imagen{
-    grid-area: mecanica__imagen;
-    grid-column: 3/4;
-    grid-row: 3/4;       
-    width: 440px;
-    height: 400px; 
-}
-.imagenM{
-    border-radius: 10px;
-    width: 440px;
-    height: 400px;
-}
-.mecanica__tituloP{
-    grid-area: mecanica__tituloP;
-    grid-column: 3/4;
-    grid-row: 4/5;
-    margin-top: 9px;
-}
-.mecanica__titulo{  
-    font-style: normal;
-    text-align: center;
-    font-size: 25px;
-    color: #ffffff;
-}
-.mecanica__p{  
-    text-align: center;
-    font-size: 15px;
-    color: #ffffff;
-    text-align: justify;
-    margin-top: 10px;
-}
-.footer__servicios{
-    grid-area: footer__servicios;
-    grid-column: 1/4;
-    grid-row: 5/6;
-    background-color: #BA1B1B;
-    font-size: 15px;
-    text-align: center;
-    border: solid 1px black;
-    font-weight: bold;
-    width: 1347px;
-    height: 20px;
-    margin-top: 100px;    
-}
-.card-text{
-    font-size: 15px;
-    text-align: justify;
-}
-@media (max-width:360px) {
-    .contenidoServicios{
-        display: flex;
-        flex-direction: column;
-        align-content: space-between;
-        height: 100vh;
-        width: 360px;
-    }
-    .menu__servicios{
-        width: 350px;
-    }
-    .servicios__logo{
-        width: 200px;
-    }
-    .menu__servicios nav ul{
-        display: flex;
-        flex-direction: column;
-        align-content: space-between;
-        font-size: 10px;
-    }
-    .tipoServicios{
-        display: flex;
-        flex-direction: column;
-        align-content: space-between;
-        align-items: center;
-        margin-right: 0px;
-        margin-left: 10px;
-        width: 355px;
-    }
-    .fija{
-        width: 350px;
-        margin-left: 0px;
-    }
-    .fija__imagen{
-        width: 360px;
-    }
-    .fija__tituloP{
-        width: 340px;     
-    }
-    .imagenF{
-        width: 340px;      
-    }
-    .regulable{
-        width: 350px;
-        margin-left: 0px;
-    }
-    .regulable__imagen{
-        width: 360px;
-    }
-    .imagenR{
-        width: 340px;    
-    }
-    .regulable__tituloP{
-        width: 340px;  
-    }
-    .mecanica{
-        width: 350px;
-        margin-left: 0px;
-    }
-    .mecanica__imagen{
-        width: 360px;
-    }
-    .imagenM{
-        width: 340px;    
-    }
-    .mecanica__tituloP{
-        width: 340px;
-    }
-    .servicios__titulo{
-        width: 340px;
-        height: 350px;
-        
-        
-    }
-    .footer__servicios{
-       margin-top: 50px;
-       width: 350px;
-       height: 50px;
-    } 
-}
-
-/* CONTENIDO GALERIA */
 #inicio{
     margin-left: 40px;
     font-size: 21px;
@@ -590,11 +46,188 @@ body{
     transition: 1s;
     padding: 2px;
 }
-#tituloGaleria{
+
+/* CONTENIDO HOME */
+#nosotros{
+    background-color: #F5EDED;
+}
+.principal__imagen{
+    margin-top: 5px;
+    width: 1345px;
+    height: 500px;
+    margin-left: 1px;
+}
+#nosotros__imagen{
+   width: 400px;
+   height: 300px;
+   margin-top: 15px;
+   margin-bottom: 15px;
+   margin-left: 8px;
+   border-radius: 20px;
+}
+.nosotros__titulo{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: #3E3636;
+}
+.nosotros__p{
+    margin-left: 10px;
+    font-size: 20px;
+    color: #3E3636;
+    border: solid 2px #3E3636;
+    border-radius: 10px;
+    padding: 10px;
+}
+#marcas{
+    padding: 30px;
+    background-image: linear-gradient(to bottom, #3E3636, #F5EDED);
+}
+#marcas__titulo{
+    font-style: normal;
+    text-align: center;
+    font-size: 30px;
+    color: #F5EDED;
+}
+#marcas__imagenes{
+    margin-top: 20px;
+}
+#marcas__imagenFord{
+    height: 150px;
+    width: 350px;
+    
+    transition: 0.5s;    
+}
+#marcas__imagenFord:hover{
+    transform: scale(1.5, 1.5);
+}    
+#marcas__imagenHonda{
+    height: 150px;
+    width: 300px;    
+    transition: 0.5s;
+    
+}
+#marcas__imagenHonda:hover{
+    transform: scale(1.3, 1.3);
+}       
+#marcas__imagenBmw{
+    height: 150px;
+    width: 300px;
+    
+    transition: 0.5s;
+}
+#marcas__imagenBmw:hover{
+    transform: scale(1.3, 1.3);
+}    
+#proveedores{
+    background-color: #e6e6e6;
+    padding-bottom: 50px;
+    background-image: linear-gradient(black,rgba(0, 0, 0, 0.507)), url(../images/espirales.jpg);
+    background-position: center;
+    height: 350px;    
+}
+#proveedores__titulo{
+    font-style:normal;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: #F5EDED;
+}
+.proveedores__imagen302{
+    height: 100px;
+    width: 350px;
+}
+.proveedores__imagenone{
+    height: 100px;
+    width: 350px;
+}
+@media (max-width: 360px){
+    .principal__imagen{
+        width: 350px;
+        height: 150px;
+        margin-left: 0px;
+    }
+    #nosotros__imagen{
+        display: none;
+    }
+    .nosotros__p{
+        margin-top: 2px;
+        margin-bottom: 6px;
+        
+    }
+    #marcas{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+
+    }
+    .marcas__titulo{
+        font-size: 25px;
+    }
+    #marcas__imagenes{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        align-content: center;
+        width: 320px;    
+    }
+    #marcas__imagenBmw{
+        width: 300px;
+    }
+    #marcas__imagenFord{
+        width: 300px;
+    }
+    #marcas__imagenHonda{
+        margin-top: 20px;
+    }
+   
+    .proveedores__imagenOne{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .proveedores__imagen302{
+        margin-left: 5px;
+    }
+    .footer{
+        width: 360px;
+        height: 45px;
+    } 
+}
+
+/* CONTENIDO SERVICIOS */
+#servicios__titulo{
+    display: flex;
+    justify-content: center;
     height: 250px;
-    grid-area: titulo;
-    grid-column: 1/4;
-    grid-row: 2/3;
+    padding-top: 80px;
+    margin-bottom: 20px;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 50px;
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.507)), url(../images/bancodetrabajo.jpg);
+    background-position: center;    
+}
+.card-text{
+    font-size: 15px;
+    text-align: justify;
+    color: #F5EDED;
+}
+.card{
+    background-color: #3e36368c ;
+}
+.card-group h2{
+    color: #F5EDED;
+    font-size: 25px;
+}
+
+/* CONTENIDO GALERIA */
+#tituloGaleria{
+    display: flex;
+    justify-content: center;
+    height: 250px;
     font-style: normal;
     color: #ffffff;
     font-size: 40px;
@@ -602,17 +235,6 @@ body{
     padding-top: 80px;
     margin-bottom: 20px;
     background-image: linear-gradient(black, rgba(0, 0, 0, 0.507));   
-}
-#footer__p{
-    grid-area: footer__galeria;
-    background-color: #BA1B1B;
-    margin-bottom: 1px;
-    font-size: 15px;
-    text-align: center;
-    border: solid 1px black;
-    font-weight: bold;
-    margin-top: 165px;
-    
 }
 
 /* CONTENIDO CONTACTO */
@@ -650,6 +272,12 @@ body{
 .formulario legend{
     text-align: center;
 }
+@media (max-width: 360px){
+    #formulario{
+        margin-top: 50px;
+        margin-bottom: 350px;
+    }
+}
 
 /* CONTENIDO DONDE ESTAMOS */
 #tituloDonde{
@@ -674,20 +302,21 @@ body{
     border-radius: 10px;
     width: 200px;
     height: 150px;
-}
-.footer{
-    grid-area: footer;
-    grid-column: 1/4;
-    grid-row: 6/7;
-    background-color: #BA1B1B;
-    font-size: 15px;
-    text-align: center;
-    border: solid 1px black;
-    font-weight: bold;    
+    margin-bottom: 20px;
 }
 @media (max-width: 360px){
     #reviewImg{
-        display: flex;
-       
+        margin-left: 70px;  
     }
+}
+
+/* FOOTER */
+#footer__p{
+    background-color: #BA1B1B;
+    margin-bottom: 1px;
+    font-size: 15px;
+    text-align: center;
+    border: solid 1px black;
+    font-weight: bold;
+    margin-top: 0px;    
 }
