@@ -1,0 +1,26 @@
+#inicio{
+    margin-left: 40px;
+    font-size: 21px;
+    text-decoration: none;
+    padding: 8px;
+    color: $color-letra;
+    text-transform: uppercase;
+    cursor: pointer;
+            &:hover{
+                    background-color: #D72323;
+                    transition: 1s;                    
+                }
+}
+#header nav ul li a{
+    font-size: 21px;
+    text-decoration: none;
+    padding: 8px;
+    color: $color-letra;
+    text-transform: uppercase;
+    cursor: pointer;
+            &:hover{
+                    background-color: #D72323;
+                    transition: 1s;
+            }
+}
+

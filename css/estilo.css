@@ -1,29 +1,32 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #3E3636;
+  font-family: 'Anton', sans-serif; }
+
 #inicio {
   margin-left: 40px;
   font-size: 21px;
   text-decoration: none;
   padding: 8px;
-  color: white;
+  color: #F5EDED;
   text-transform: uppercase;
   cursor: pointer; }
-
-#inicio:hover {
-  background-color: #D72323;
-  transition: 1s;
-  padding: 2px; }
+  #inicio:hover {
+    background-color: #D72323;
+    transition: 1s; }
 
 #header nav ul li a {
   font-size: 21px;
   text-decoration: none;
   padding: 8px;
-  color: white;
+  color: #F5EDED;
   text-transform: uppercase;
   cursor: pointer; }
-
-#header nav ul li a:hover {
-  background-color: #D72323;
-  transition: 1s;
-  padding: 2px; }
+  #header nav ul li a:hover {
+    background-color: #D72323;
+    transition: 1s; }
 
 #footer__p {
   background-color: #BA1B1B;
@@ -41,22 +44,22 @@
   padding-top: 80px;
   margin-bottom: 20px;
   font-style: normal;
-  color: #ffffff;
+  color: #F5EDED;
   font-size: 50px;
   background-image: linear-gradient(black, rgba(0, 0, 0, 0.507)), url(../images/bancodetrabajo.jpg);
   background-position: center; }
 
-.card-text {
-  font-size: 15px;
-  text-align: justify;
-  color: #F5EDED; }
-
-.card {
-  background-color: #3e36368c; }
+.card-group .card {
+  background-color: #3E3636; }
 
 .card-group h2 {
   color: #F5EDED;
   font-size: 25px; }
+
+.card-group .card-text {
+  font-size: 15px;
+  text-align: justify;
+  color: #F5EDED; }
 
 #logoIg {
   width: 50px;
