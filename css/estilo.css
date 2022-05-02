@@ -1,3 +1,39 @@
+#inicio {
+  margin-left: 40px;
+  font-size: 21px;
+  text-decoration: none;
+  padding: 8px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer; }
+
+#inicio:hover {
+  background-color: #D72323;
+  transition: 1s;
+  padding: 2px; }
+
+#header nav ul li a {
+  font-size: 21px;
+  text-decoration: none;
+  padding: 8px;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer; }
+
+#header nav ul li a:hover {
+  background-color: #D72323;
+  transition: 1s;
+  padding: 2px; }
+
+#footer__p {
+  background-color: #BA1B1B;
+  margin-bottom: 1px;
+  font-size: 15px;
+  text-align: center;
+  border: solid 1px black;
+  font-weight: bold;
+  margin-top: 0px; }
+
 #servicios__titulo {
   display: flex;
   justify-content: center;
@@ -27,12 +63,3 @@
   height: 50px;
   margin-left: 1250px;
   margin-bottom: 30px; }
-
-#footer__p {
-  background-color: #BA1B1B;
-  margin-bottom: 1px;
-  font-size: 15px;
-  text-align: center;
-  border: solid 1px black;
-  font-weight: bold;
-  margin-top: 0px; }

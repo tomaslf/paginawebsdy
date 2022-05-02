@@ -1,4 +1,5 @@
-
+@import "menu";
+@import "footer";
 
 #servicios__titulo{
     display: flex;
@@ -30,12 +31,4 @@
     margin-left: 1250px;
     margin-bottom: 30px;    
 }
-#footer__p{
-    background-color: #BA1B1B;
-    margin-bottom: 1px;
-    font-size: 15px;
-    text-align: center;
-    border: solid 1px black;
-    font-weight: bold;
-    margin-top: 0px;    
-}
+
