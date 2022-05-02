@@ -1,0 +1,38 @@
+#servicios__titulo {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  padding-top: 80px;
+  margin-bottom: 20px;
+  font-style: normal;
+  color: #ffffff;
+  font-size: 50px;
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.507)), url(../images/bancodetrabajo.jpg);
+  background-position: center; }
+
+.card-text {
+  font-size: 15px;
+  text-align: justify;
+  color: #F5EDED; }
+
+.card {
+  background-color: #3e36368c; }
+
+.card-group h2 {
+  color: #F5EDED;
+  font-size: 25px; }
+
+#logoIg {
+  width: 50px;
+  height: 50px;
+  margin-left: 1250px;
+  margin-bottom: 30px; }
+
+#footer__p {
+  background-color: #BA1B1B;
+  margin-bottom: 1px;
+  font-size: 15px;
+  text-align: center;
+  border: solid 1px black;
+  font-weight: bold;
+  margin-top: 0px; }
