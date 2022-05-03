@@ -30,8 +30,7 @@ body{
 }
 #inicio:hover{
     background-color: #D72323;
-    transition: 1s;
-    padding: 2px;
+    transition: 1s;   
 }
 #header nav ul li a{
     font-size: 21px;
@@ -44,7 +43,6 @@ body{
 #header nav ul li a:hover{
     background-color: #D72323;
     transition: 1s;
-    padding: 2px;
 }
 
 /* CONTENIDO HOME */
