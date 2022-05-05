@@ -81,6 +81,7 @@ body{
 #marcas{
     padding: 30px;
     background-image: linear-gradient(to bottom, #3E3636, #F5EDED);
+    
 }
 #marcas__titulo{
     font-style: normal;
@@ -220,6 +221,15 @@ body{
     color: #F5EDED;
     font-size: 25px;
 }
+.card-img-top{
+    height: 550px;
+}
+.btn-primary{
+    
+    display: flex;
+    justify-content: center;
+}
+
 
 /* CONTENIDO GALERIA */
 #tituloGaleria{
