@@ -206,8 +206,9 @@ body{
     font-style: normal;
     color: #ffffff;
     font-size: 50px;
-    background-image: linear-gradient(black, rgba(0, 0, 0, 0.507)), url(../images/bancodetrabajo.jpg);
-    background-position: center;    
+    background-image: linear-gradient(black, rgba(0, 0, 0, 0.507)), url(../images/tablero.jpg);
+    background-position:center;
+    background-repeat: repeat;
 }
 .card-text{
     font-size: 15px;
@@ -247,7 +248,7 @@ body{
 
 /* CONTENIDO CONTACTO */
 #fondoContacto{
-    background-image:linear-gradient(black,rgba(0, 0, 0, 0.411)), url(../images/SDY\ \(7\ de\ 11\).JPG);
+    background-image:linear-gradient(black,rgba(0, 0, 0, 0.411)), url(../images/sdypared.jpg);
     background-position:center;    
 }
 #tituloContacto{
