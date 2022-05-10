@@ -1,0 +1,141 @@
+#nosotros{
+    background-color: $color-letra;
+}
+.principal__imagen{
+    @include formato(1345px, 500px);
+    margin-top: 5px;
+    margin-left: 1px;
+}
+#nosotros__imagen{
+   @include formato(400px, 300px);
+   margin-top: 15px;
+   margin-bottom: 15px;
+   margin-left: 8px;
+   border-radius: 20px;
+}
+.nosotros__titulo{
+    text-align: left;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    color: $color-principal;
+}
+.nosotros__p{
+    margin-left: 10px;
+    font-size: 20px;
+    color: $color-principal;
+    border: solid 2px $color-principal;
+    border-radius: 10px;
+    padding: 10px;
+}
+#marcas{
+    padding: 30px;
+    background-image: linear-gradient(to bottom, $color-principal, $color-letra);
+}
+#marcas__titulo{
+    font-style: normal;
+    text-align: center;
+    font-size: 30px;
+    color: $color-letra;
+}
+#marcas__imagenes{
+    margin-top: 20px;
+}
+#marcas__imagenFord{
+    @include formato(350px, 150px);    
+    transition: 0.5s;
+        &:hover{
+            transform: scale(1.5, 1.5);
+        }    
+}   
+#marcas__imagenHonda{
+    @include formato(300x, 150px);    
+    transition: 0.5s;
+             &:hover{
+            transform: scale(1.3, 1.3);
+        }
+}      
+#marcas__imagenBmw{
+    @include formato(300px, 150px);
+    transition: 0.5s;
+             &:hover{
+            transform: scale(1.3, 1.3);
+        }
+}   
+#proveedores{
+    background-color: $color-letra;
+    padding-bottom: 50px;
+    background-image: linear-gradient(black,rgba(0, 0, 0, 0.507)), url(../images/espirales.jpg);
+    background-position: center;
+    height: 350px;    
+}
+#proveedores__titulo{
+    font-style:normal;
+    text-align: center;
+    font-size: 30px;
+    padding: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color: $color-letra;
+}
+.proveedores__imagen302{
+    @include formato(350px, 100px);
+}
+.proveedores__imagenone{
+    @extend .proveedores__imagen302;
+}
+#logoIg{
+    @include formato(50px, 50px);
+    margin-left: 1250px;
+    margin-bottom: 30px;    
+}
+@media (max-width: 360px){
+    .principal__imagen{
+        @include formato(350px, 150px);
+        margin-left: 0px;
+    }
+    #nosotros__imagen{
+        display: none;
+    }
+    .nosotros__p{
+        margin-top: 2px;
+        margin-bottom: 6px;
+        
+    }
+    #marcas{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+    }
+    .marcas__titulo{
+        font-size: 25px;
+    }
+    #marcas__imagenes{
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        align-content: center;
+        width: 320px;    
+    }
+    #marcas__imagenBmw{
+        width: 300px;
+    }
+    #marcas__imagenFord{
+        width: 300px;
+    }
+    #marcas__imagenHonda{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .proveedores__imagenOne{
+        margin-left: 50px;
+        margin-top: 20px;
+    }
+    .proveedores__imagen302{
+        margin-left: 5px;
+    }
+    .footer{
+        width: 360px;
+        height: 45px;
+    } 
+}
