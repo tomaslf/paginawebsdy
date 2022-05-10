@@ -191,6 +191,14 @@ body {
   text-align: justify;
   color: #F5EDED; }
 
+.card-img-top {
+  height: 550px;
+  width: 450px; }
+
+.btn {
+  display: flex;
+  justify-content: center; }
+
 #logoIg {
   height: 50px;
   width: 50px;
@@ -216,7 +224,7 @@ body {
   margin-bottom: 30px; }
 
 #fondoContacto {
-  background-image: linear-gradient(black, rgba(0, 0, 0, 0.411)), url(../images/bancodetrabajo.jpg);
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.411)), url(../images/sdypared.jpg);
   background-position: center; }
 
 #tituloContacto {
@@ -224,7 +232,7 @@ body {
   text-align: center;
   font-size: 50px;
   margin-top: 20px;
-  margin-left: 600px;
+  margin-left: 570px;
   color: #F5EDED; }
 
 .form {

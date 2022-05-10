@@ -24,6 +24,13 @@
             color: $color-letra;
         }
 }
+.card-img-top{
+    @include formato(450px, 550px)
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
 
 
 #logoIg{
