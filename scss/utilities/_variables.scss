@@ -1,0 +1,6 @@
+$color-principal: #3E3636;
+$color-letra: #F5EDED;
+@mixin formato($widht, $height) {
+    height: $height;
+    width: $widht;    
+} 

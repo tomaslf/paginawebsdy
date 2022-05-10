@@ -1,0 +1,26 @@
+#tituloDonde{
+    color: $color-letra;
+    font-size: 50px;   
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+#googleImg{
+    @include formato(250px, 100px);
+    margin-top: 50px;
+}
+#reviewImg{
+    @include formato(200px, 150px);
+    border: solid black 1px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#logoIg{
+    @include formato(50px, 50px);
+    margin-left: 1250px;
+    margin-bottom: 30px;    
+}
+@media (max-width: 360px){
+    #reviewImg{
+        margin-left: 70px;  
+    }
+}

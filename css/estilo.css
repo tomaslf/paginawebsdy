@@ -1,0 +1,291 @@
+html {
+  font-size: 62.5%; }
+
+body {
+  background-color: #3E3636;
+  font-family: 'Anton', sans-serif; }
+
+#inicio {
+  margin-left: 40px;
+  font-size: 21px;
+  text-decoration: none;
+  padding: 8px;
+  color: #F5EDED;
+  text-transform: uppercase;
+  cursor: pointer; }
+  #inicio:hover {
+    background-color: #D72323;
+    transition: 1s; }
+
+#header nav ul li a {
+  font-size: 21px;
+  text-decoration: none;
+  padding: 8px;
+  color: #F5EDED;
+  text-transform: uppercase;
+  cursor: pointer; }
+  #header nav ul li a:hover {
+    background-color: #D72323;
+    transition: 1s; }
+
+#footer__p {
+  background-color: #BA1B1B;
+  margin-bottom: 1px;
+  font-size: 15px;
+  text-align: center;
+  border: solid 1px black;
+  font-weight: bold;
+  margin-top: 0px; }
+
+#nosotros {
+  background-color: #F5EDED; }
+
+.principal__imagen {
+  height: 500px;
+  width: 1345px;
+  margin-top: 5px;
+  margin-left: 1px; }
+
+#nosotros__imagen {
+  height: 300px;
+  width: 400px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  margin-left: 8px;
+  border-radius: 20px; }
+
+.nosotros__titulo {
+  text-align: left;
+  font-size: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+  color: #3E3636; }
+
+.nosotros__p {
+  margin-left: 10px;
+  font-size: 20px;
+  color: #3E3636;
+  border: solid 2px #3E3636;
+  border-radius: 10px;
+  padding: 10px; }
+
+#marcas {
+  padding: 30px;
+  background-image: linear-gradient(to bottom, #3E3636, #F5EDED); }
+
+#marcas__titulo {
+  font-style: normal;
+  text-align: center;
+  font-size: 30px;
+  color: #F5EDED; }
+
+#marcas__imagenes {
+  margin-top: 20px; }
+
+#marcas__imagenFord {
+  height: 150px;
+  width: 350px;
+  transition: 0.5s; }
+  #marcas__imagenFord:hover {
+    transform: scale(1.5, 1.5); }
+
+#marcas__imagenHonda {
+  height: 150px;
+  width: 300x;
+  transition: 0.5s; }
+  #marcas__imagenHonda:hover {
+    transform: scale(1.3, 1.3); }
+
+#marcas__imagenBmw {
+  height: 150px;
+  width: 300px;
+  transition: 0.5s; }
+  #marcas__imagenBmw:hover {
+    transform: scale(1.3, 1.3); }
+
+#proveedores {
+  background-color: #F5EDED;
+  padding-bottom: 50px;
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.507)), url(../images/espirales.jpg);
+  background-position: center;
+  height: 350px; }
+
+#proveedores__titulo {
+  font-style: normal;
+  text-align: center;
+  font-size: 30px;
+  padding: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  color: #F5EDED; }
+
+.proveedores__imagen302, .proveedores__imagenone {
+  height: 100px;
+  width: 350px; }
+
+#logoIg {
+  height: 50px;
+  width: 50px;
+  margin-left: 1250px;
+  margin-bottom: 30px; }
+
+@media (max-width: 360px) {
+  .principal__imagen {
+    height: 150px;
+    width: 350px;
+    margin-left: 0px; }
+  #nosotros__imagen {
+    display: none; }
+  .nosotros__p {
+    margin-top: 2px;
+    margin-bottom: 6px; }
+  #marcas {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between; }
+  .marcas__titulo {
+    font-size: 25px; }
+  #marcas__imagenes {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-content: center;
+    width: 320px; }
+  #marcas__imagenBmw {
+    width: 300px; }
+  #marcas__imagenFord {
+    width: 300px; }
+  #marcas__imagenHonda {
+    margin-top: 20px;
+    margin-left: 20px; }
+  .proveedores__imagenOne {
+    margin-left: 50px;
+    margin-top: 20px; }
+  .proveedores__imagen302, .proveedores__imagenone {
+    margin-left: 5px; }
+  .footer {
+    width: 360px;
+    height: 45px; } }
+
+#servicios__titulo {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  padding-top: 80px;
+  margin-bottom: 20px;
+  font-style: normal;
+  color: #F5EDED;
+  font-size: 50px;
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.507)), url(../images/bancodetrabajo.jpg);
+  background-position: center; }
+
+.card-group .card {
+  background-color: #3E3636; }
+
+.card-group h2 {
+  color: #F5EDED;
+  font-size: 25px; }
+
+.card-group .card-text {
+  font-size: 15px;
+  text-align: justify;
+  color: #F5EDED; }
+
+#logoIg {
+  height: 50px;
+  width: 50px;
+  margin-left: 1250px;
+  margin-bottom: 30px; }
+
+#tituloGaleria {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  font-style: normal;
+  color: #F5EDED;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 80px;
+  margin-bottom: 20px;
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.507)); }
+
+#logoIg {
+  height: 50px;
+  width: 50px;
+  margin-left: 1250px;
+  margin-bottom: 30px; }
+
+#fondoContacto {
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.411)), url(../images/bancodetrabajo.jpg);
+  background-position: center; }
+
+#tituloContacto {
+  font-style: normal;
+  text-align: center;
+  font-size: 50px;
+  margin-top: 20px;
+  margin-left: 600px;
+  color: #F5EDED; }
+
+.form {
+  display: flex;
+  justify-content: center; }
+
+#formulario {
+  height: 100vh;
+  background-image: linear-gradient(to bottom, white, rgba(167, 164, 164, 0.699));
+  font-family: 'Anton', sans-serif;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  color: #020202;
+  border: solid black 2px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.formulario legend {
+  text-align: center; }
+
+#logoIg {
+  height: 50px;
+  width: 50px;
+  margin-left: 1250px;
+  margin-bottom: 30px; }
+
+@media (max-width: 360px) {
+  #formulario {
+    margin-top: 50px;
+    margin-bottom: 350px; }
+  #tituloContacto {
+    margin-left: 90px; } }
+
+#tituloDonde {
+  color: #F5EDED;
+  font-size: 50px;
+  margin-top: 50px;
+  margin-bottom: 30px; }
+
+#googleImg {
+  height: 100px;
+  width: 250px;
+  margin-top: 50px; }
+
+#reviewImg {
+  height: 150px;
+  width: 200px;
+  border: solid black 1px;
+  border-radius: 10px;
+  margin-bottom: 20px; }
+
+#logoIg {
+  height: 50px;
+  width: 50px;
+  margin-left: 1250px;
+  margin-bottom: 30px; }
+
+@media (max-width: 360px) {
+  #reviewImg {
+    margin-left: 70px; } }
