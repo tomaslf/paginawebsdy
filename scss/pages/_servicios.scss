@@ -26,7 +26,6 @@
 }
 .card-img-top{
     height: 550px;
-    background-color: yellow;
 }
 .btn{
     margin-top: 50px;
@@ -45,7 +44,6 @@ $botondeturno:(
         border-color: black;
     }
 }    
-    
 
 #logoIg{
     @include formato(50px, 50px);
