@@ -192,10 +192,10 @@ body {
   color: #F5EDED; }
 
 .card-img-top {
-  height: 550px;
-  width: 450px; }
+  height: 550px; }
 
 .btn {
+  margin-top: 50px;
   display: flex;
   justify-content: center; }
 

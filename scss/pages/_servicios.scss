@@ -25,9 +25,10 @@
         }
 }
 .card-img-top{
-    @include formato(450px, 550px)
+    height: 550px;
 }
 .btn{
+    margin-top: 50px;
     display: flex;
     justify-content: center;
 }
