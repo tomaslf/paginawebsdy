@@ -7,26 +7,24 @@
     margin-left: 1px;
 }
 #nosotros__imagen{
-   @include formato(400px, 300px);
-   margin-top: 15px;
-   margin-bottom: 15px;
-   margin-left: 8px;
-   border-radius: 20px;
+   @include formato(430px, 350px);
+   margin-top: 45px;
+   margin-bottom: 50px;
+   margin-left: 15px;
+   border-radius: 15px;
+  
 }
 .nosotros__titulo{
-    text-align: left;
-    font-size: 30px;
-    margin-left: 10px;
-    margin-top: 10px;
+    text-align: center;
+    font-size: 45px;
+    margin-top: 40px;
     color: $color-principal;
 }
 .nosotros__p{
+    text-align: justify;
     margin-left: 10px;
     font-size: 20px;
     color: $color-principal;
-    border: solid 2px $color-principal;
-    border-radius: 10px;
-    padding: 10px;
 }
 #marcas{
     padding: 30px;
@@ -35,7 +33,7 @@
 #marcas__titulo{
     font-style: normal;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     color: $color-letra;
 }
 #marcas__imagenes{
@@ -72,10 +70,9 @@
 #proveedores__titulo{
     font-style:normal;
     text-align: center;
-    font-size: 30px;
-    padding: 20px;
-    margin-top: 5px;
-    margin-bottom: 15px;
+    font-size: 40px;
+    margin-top: 20px;
+    margin-bottom: 15x;
     color: $color-letra;
 }
 .proveedores__imagen302{
@@ -100,6 +97,7 @@
     .nosotros__p{
         margin-top: 2px;
         margin-bottom: 6px;
+        margin-right: 30px;
         
     }
     #marcas{

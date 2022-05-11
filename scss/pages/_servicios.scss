@@ -26,13 +26,26 @@
 }
 .card-img-top{
     height: 550px;
+    background-color: yellow;
 }
 .btn{
     margin-top: 50px;
     display: flex;
     justify-content: center;
 }
+$botondeturno:(
+    turnoRegulable: red,
+    turnoResortes: blue,
+    turnoMecanica: green
 
+);
+@each $tipoturno, $color in $botondeturno{
+    #btn--#{$tipoturno}{
+        background-color: $color;
+        border-color: black;
+    }
+}    
+    
 
 #logoIg{
     @include formato(50px, 50px);
