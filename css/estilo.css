@@ -69,7 +69,8 @@ body {
 
 #marcas {
   padding: 30px;
-  background-image: linear-gradient(to bottom, #3E3636, #F5EDED); }
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.507)), url(../images/bancodetrabajo.jpg);
+  background-position: center; }
 
 #marcas__titulo {
   font-style: normal;
@@ -83,15 +84,18 @@ body {
 #marcas__imagenFord {
   height: 150px;
   width: 350px;
+  margin-left: 140px;
+  margin-bottom: 20px;
   transition: 0.5s; }
   #marcas__imagenFord:hover {
-    transform: scale(1.5, 1.5); }
+    transform: scale(1.3, 1.3); }
 
-#marcas__imagenHonda {
-  height: 150px;
-  width: 300x;
+#marcas__imagenChevrolet {
+  height: 110px;
+  width: 325px;
+  margin-top: 30px;
   transition: 0.5s; }
-  #marcas__imagenHonda:hover {
+  #marcas__imagenChevrolet:hover {
     transform: scale(1.3, 1.3); }
 
 #marcas__imagenBmw {
@@ -152,10 +156,12 @@ body {
   #marcas__imagenBmw {
     width: 300px; }
   #marcas__imagenFord {
-    width: 300px; }
-  #marcas__imagenHonda {
+    width: 300px;
+    margin-left: 0px; }
+  #marcas__imagenChevrolet {
     margin-top: 20px;
-    margin-left: 20px; }
+    margin-left: 0px;
+    width: 300px; }
   .proveedores__imagenOne {
     margin-left: 50px;
     margin-top: 20px; }
@@ -174,7 +180,7 @@ body {
   font-style: normal;
   color: #F5EDED;
   font-size: 50px;
-  background-image: linear-gradient(black, rgba(0, 0, 0, 0.507)), url(../images/bancodetrabajo.jpg);
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.507)), url(../images/tablero.jpg);
   background-position: center; }
 
 .card-group .card {
