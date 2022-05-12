@@ -126,10 +126,10 @@ body {
   margin-left: 1250px;
   margin-bottom: 30px; }
 
-@media (max-width: 360px) {
+@media (max-width: 390px) {
   .principal__imagen {
     height: 150px;
-    width: 350px;
+    width: 390px;
     margin-left: 0px; }
   #nosotros__imagen {
     display: none; }
@@ -273,7 +273,7 @@ body {
   margin-left: 1250px;
   margin-bottom: 30px; }
 
-@media (max-width: 360px) {
+@media (max-width: 390px) {
   #formulario {
     margin-top: 50px;
     margin-bottom: 350px; }
@@ -304,6 +304,6 @@ body {
   margin-left: 1250px;
   margin-bottom: 30px; }
 
-@media (max-width: 360px) {
+@media (max-width: 390px) {
   #reviewImg {
-    margin-left: 70px; } }
+    margin-left: 90px; } }

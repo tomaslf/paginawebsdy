@@ -87,9 +87,9 @@
     margin-left: 1250px;
     margin-bottom: 30px;    
 }
-@media (max-width: 360px){
+@media (max-width: 390px){
     .principal__imagen{
-        @include formato(350px, 150px);
+        @include formato(390px, 150px);
         margin-left: 0px;
     }
     #nosotros__imagen{
