@@ -10,15 +10,14 @@
     color: $color-letra;
 }
 form{
-    background-image: linear-gradient(to bottom, #3e363688, $color-letra);
-    border-radius: 20px;
     label{
-        color: black;
+        color: $color-letra;
         font-size: 20px;
+
     }
     button{
         @include formato(150px,30px);
-        margin-bottom: 20px;
+        margin-bottom: 60px;
 
     }
 }
