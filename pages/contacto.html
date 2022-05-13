@@ -47,9 +47,68 @@
                 </div>
               </nav>
         </header>
-        <h1 class="row" id="tituloContacto" >Contacto</h1>
+        <h1 class="row d-flex justify-content-center " id="tituloContacto" >Contacto</h1>
         
-            <form data-aos="flip-left"
+        <form class="row col-lg-8 d-flex justify-content-center">
+            <div class="col-lg-4">
+                <label for="nombreInput" class="form-label mt-3">Nombre</label>
+                <input type="text" class="form-control form-control-lg" id="nombreInput" placeholder="Nombre">
+                <label for="apellidoInput" class="form-label mt-3">Apellido</label>
+                <input type="text" class="form-control form-control-lg" id="apellidoInput" placeholder="Apellido">
+                <label for="emailInput" class="form-label mt-3">Email</label>
+                <input type="email" class="form-control form-control-lg" id="emailInput" placeholder="Email">
+                <label for="telefonoInput" class="form-label mt-3">Teléfono</label>
+                <input type="number" class="form-control form-control-lg" id="telefonoInput" placeholder="Teléfono">
+                <label for="form-check" class="form-label mt-3">Cómo desea ser contactado?</label>
+              <div class="form-check mt-3">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                  <label class="form-check-label" for="flexCheckDefault">
+                    Teléfono
+                  </label>
+              </div>
+              <div class="form-check mt-3 mb-3">
+                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Email
+                  </label>
+              </div>
+            </div>
+          <div class="col-5 sm-3">
+                <label for="consulta" class="form-label mt-3">Ingrese su Consulta</label>
+                <textarea class="form-control form-control-lg" name="textarea" id="consulta" placeholder="Indicar marca, año y modelo" cols="30" rows="10"></textarea>
+          </div>
+          <div class="col-4 d-flex justify-content-center">
+            <button class="btn btn-primary btn-lg" type="submit">Enviar</button>
+            
+          </div>
+          <div class="col-4 d-flex justify-content-center">
+            <button class="btn btn-primary btn-lg" type="reset">Limpiar</button>
+            
+          </div>
+      
+            
+            
+  
+
+
+
+
+
+
+        </form>
+
+
+
+
+
+
+
+
+
+
+
+
+            <!-- <form data-aos="flip-left"
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000" class="form" action="">
                 <fieldset class="row col-lg-4" id="formulario" >
@@ -88,7 +147,7 @@
                       <input type="reset" class="btn-check" id="btn-check-2">
                       <label class="btn btn-primary" value="reset" for="btn-check-2">Limpiar</label>                 
                 </fieldset>                
-            </form>
+            </form> -->
             <div>
               <a href="https://www.instagram.com/sdy_suspension/"> <img id="logoIg" class="fixed-bottom" src="../images/logoig.png"  alt=""></a>
             </div>    

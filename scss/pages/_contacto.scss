@@ -7,31 +7,62 @@
     text-align: center;
     font-size: 50px;
     margin-top: 20px;
-    margin-left: 570px;
     color: $color-letra;
 }
-.form{
-    display: flex;
-    justify-content: center;
+form{
+    background-image: linear-gradient(to bottom, #3e363688, $color-letra);
+    border-radius: 20px;
+    label{
+        color: black;
+        font-size: 20px;
+    }
+    button{
+        @include formato(150px,30px);
+        margin-bottom: 20px;
+
+    }
 }
-#formulario{
-    height: 100vh;
-    background-image: linear-gradient(to bottom, white, rgba(167, 164, 164, 0.699));
-    font-family: 'Anton', sans-serif;
-    font-size: 15px;
-    text-align: center;
-    padding: 10px;
-    margin-bottom: 10px;  
-    color: #020202;
-    border: solid black 2px;
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.formulario legend{
-    text-align: center;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .form{
+//     display: flex;
+//     justify-content: center;
+// }
+// #formulario{
+//     height: 100vh;
+//     background-image: linear-gradient(to bottom, white, rgba(167, 164, 164, 0.699));
+//     font-family: 'Anton', sans-serif;
+//     font-size: 15px;
+//     text-align: center;
+//     padding: 10px;
+//     margin-bottom: 10px;  
+//     color: #020202;
+//     border: solid black 2px;
+//     border-radius: 8px;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+// .formulario legend{
+//     text-align: center;
+// }
 #logoIg{
     @include formato(50px, 50px);
     margin-left: 1250px;
@@ -42,8 +73,11 @@
         margin-top: 50px;
         margin-bottom: 350px;
     }
-    #tituloContacto{
-        margin-left: 90px;
+    form{
+        label{
+            font-size: 15px;
+        }
+
     }
-    
+
 }
