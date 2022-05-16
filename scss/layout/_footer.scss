@@ -1,8 +1,38 @@
-#footer__p {
-    background-color: #BA1B1B;
-    margin-bottom: 1px;
-    font-size: 15px;
+#menuFooter{
+    display: flex;
+    justify-content: right;
+    ul li{
+        margin-top: 10px;
+        text-align:left;          
+        list-style: none;
+            a{
+            font-weight: bold;
+            font-size: 15px;
+            color: $color-letra;
+            text-decoration: none;    
+            }
+    }
+}         
+#redes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#derechos{
     text-align: center;
-    border: solid 1px black;
+    color: $color-letra;
+    margin-bottom: 1px;
+    font-size: 10px;
     font-weight: bold;
-    margin-top: 0px; }
+    margin-top: 0px; 
+}
+
+#logoWsp{
+    @include formato(30px,30px);
+}
+#logoFace{
+    @include formato(30px,30px);
+}
+#logoIgFooter{
+    @include formato(30px,30px);
+}

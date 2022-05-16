@@ -28,14 +28,43 @@ body {
     background-color: #D72323;
     transition: 1s; }
 
-#footer__p {
-  background-color: #BA1B1B;
-  margin-bottom: 1px;
-  font-size: 15px;
+#menuFooter {
+  display: flex;
+  justify-content: right; }
+  #menuFooter ul li {
+    margin-top: 10px;
+    text-align: left;
+    list-style: none; }
+    #menuFooter ul li a {
+      font-weight: bold;
+      font-size: 15px;
+      color: #F5EDED;
+      text-decoration: none; }
+
+#redes {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center; }
+
+#derechos {
   text-align: center;
-  border: solid 1px black;
+  color: #F5EDED;
+  margin-bottom: 1px;
+  font-size: 10px;
   font-weight: bold;
   margin-top: 0px; }
+
+#logoWsp {
+  height: 30px;
+  width: 30px; }
+
+#logoFace {
+  height: 30px;
+  width: 30px; }
+
+#logoIgFooter {
+  height: 30px;
+  width: 30px; }
 
 #nosotros {
   background-color: #F5EDED; }
@@ -126,7 +155,7 @@ body {
   height: 50px;
   width: 50px;
   margin-left: 1250px;
-  margin-bottom: 30px; }
+  margin-top: 90px; }
 
 @media (max-width: 360px) {
   .principal__imagen {
