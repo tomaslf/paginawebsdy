@@ -22,46 +22,6 @@ form{
     }
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-// .form{
-//     display: flex;
-//     justify-content: center;
-// }
-// #formulario{
-//     height: 100vh;
-//     background-image: linear-gradient(to bottom, white, rgba(167, 164, 164, 0.699));
-//     font-family: 'Anton', sans-serif;
-//     font-size: 15px;
-//     text-align: center;
-//     padding: 10px;
-//     margin-bottom: 10px;  
-//     color: #020202;
-//     border: solid black 2px;
-//     border-radius: 8px;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-// }
-// .formulario legend{
-//     text-align: center;
-// }
 #logoIg{
     @include formato(50px, 50px);
     margin-left: 1250px;
