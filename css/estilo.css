@@ -29,11 +29,13 @@ body {
     transition: 1s; }
 
 #menuFooter ul li {
+  display: flex;
+  justify-content: end;
   margin-top: 10px;
   list-style: none; }
   #menuFooter ul li a {
     font-weight: bold;
-    font-size: 15px;
+    font-size: 10px;
     color: #F5EDED;
     text-decoration: none; }
 
@@ -41,6 +43,8 @@ body {
   display: flex;
   justify-content: space-evenly;
   align-items: center; }
+  #redes h3 {
+    color: #F5EDED; }
 
 #derechos {
   text-align: center;
@@ -61,6 +65,14 @@ body {
 #logoIgFooter {
   height: 30px;
   width: 30px; }
+
+footer {
+  background-color: black; }
+
+@media (max-width: 360px) {
+  #menuFooter ul li {
+    display: flex;
+    justify-content: center; } }
 
 #nosotros {
   background-color: #F5EDED; }
