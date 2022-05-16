@@ -28,18 +28,14 @@ body {
     background-color: #D72323;
     transition: 1s; }
 
-#menuFooter {
-  display: flex;
-  justify-content: right; }
-  #menuFooter ul li {
-    margin-top: 10px;
-    text-align: left;
-    list-style: none; }
-    #menuFooter ul li a {
-      font-weight: bold;
-      font-size: 15px;
-      color: #F5EDED;
-      text-decoration: none; }
+#menuFooter ul li {
+  margin-top: 10px;
+  list-style: none; }
+  #menuFooter ul li a {
+    font-weight: bold;
+    font-size: 15px;
+    color: #F5EDED;
+    text-decoration: none; }
 
 #redes {
   display: flex;
@@ -154,8 +150,7 @@ body {
 #logoIg {
   height: 50px;
   width: 50px;
-  margin-left: 1250px;
-  margin-top: 90px; }
+  margin-left: 1250px; }
 
 @media (max-width: 360px) {
   .principal__imagen {

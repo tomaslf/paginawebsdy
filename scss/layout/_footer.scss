@@ -1,9 +1,5 @@
-#menuFooter{
-    display: flex;
-    justify-content: right;
-    ul li{
-        margin-top: 10px;
-        text-align:left;          
+#menuFooter ul li{
+        margin-top: 10px;          
         list-style: none;
             a{
             font-weight: bold;
@@ -11,8 +7,7 @@
             color: $color-letra;
             text-decoration: none;    
             }
-    }
-}         
+    }        
 #redes{
     display: flex;
     justify-content: space-evenly;
@@ -26,7 +21,6 @@
     font-weight: bold;
     margin-top: 0px; 
 }
-
 #logoWsp{
     @include formato(30px,30px);
 }
