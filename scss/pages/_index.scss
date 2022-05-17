@@ -87,8 +87,7 @@
 }
 #logoIg{
     @include formato(50px, 50px);
-    margin-left: 1250px;
-    margin-bottom: 30px;    
+    margin-left: 1250px; 
 }
 @media (max-width: 360px){
     .principal__imagen{

@@ -1,8 +1,50 @@
-#footer__p {
-    background-color: #BA1B1B;
-    margin-bottom: 1px;
-    font-size: 15px;
+#menuFooter ul li{
+    display: flex;
+    justify-content:end;
+        margin-top: 10px;          
+        list-style: none;
+            a{
+            font-weight: bold;
+            font-size: 10px;
+            color: $color-letra;
+            text-decoration: none;    
+            }
+    }        
+#redes{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+        h3{
+            color: $color-letra;
+        }
+}
+#derechos{
     text-align: center;
-    border: solid 1px black;
+    color: $color-letra;
+    margin-bottom: 1px;
+    font-size: 10px;
     font-weight: bold;
-    margin-top: 0px; }
+    margin-top: 0px; 
+}
+#logoWsp{
+    @include formato(30px,30px);
+}
+#logoFace{
+    @include formato(30px,30px);
+}
+#logoIgFooter{
+    @include formato(30px,30px);
+}
+footer{
+    background-color: #641515;
+}
+
+@media (max-width:360px){
+    #menuFooter ul li{
+        display: flex;
+        justify-content: center;
+    }
+    #redes{
+        margin-top: 10px;
+    }
+}
