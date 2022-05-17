@@ -3,10 +3,12 @@
     font-size: 50px;   
     margin-top: 50px;
     margin-bottom: 30px;
+    padding-right: 0px;
 }
 #googleImg{
     @include formato(250px, 100px);
     margin-top: 50px;
+    padding-right: 0px;
 }
 #reviewImg{
     @include formato(200px, 150px);
@@ -19,8 +21,11 @@
     margin-left: 1250px;
     margin-bottom: 30px;    
 }
-@media (max-width: 360px){
+@media (max-width: 400px){
     #reviewImg{
-        margin-left: 70px;  
+        margin-left: 90px;  
+    }
+    #googleimg{
+        margin-left: 50px;
     }
 }

@@ -89,9 +89,9 @@
     @include formato(50px, 50px);
     margin-left: 1250px; 
 }
-@media (max-width: 360px){
+@media  (max-width: 400px){
     .principal__imagen{
-        @include formato(350px, 150px);
+        height: 150px;
         margin-left: 0px;
     }
     #nosotros__imagen{
@@ -108,37 +108,36 @@
         flex-direction: column;
         align-content: space-between;
     }
-    .marcas__titulo{
-        font-size: 25px;
+    #marcas__titulo{
+        font-size: 20px;
+    
     }
     #marcas__imagenes{
         display: flex;
         flex-direction: column;
         align-content: space-between;
         align-content: center;
-        width: 320px;    
+    
     }
     #marcas__imagenBmw{
-        width: 300px;
+        width: 250px;
+        margin-left: 35px;
     }
     #marcas__imagenFord{
-        width: 300px;
-        margin-left: 0px;
+        width: 290px;
+        margin-left: 25px;
     }
     #marcas__imagenChevrolet{
-        margin-top: 20px;
-        margin-left: 0px;
-        width: 300px;
+        margin-top: 35px;
+        margin-left: 40px;
+        width: 250px;
     }
     .proveedores__imagenOne{
-        margin-left: 50px;
+        margin-left: 60px;
         margin-top: 20px;
     }
     .proveedores__imagen302{
-        margin-left: 5px;
+        margin-left: 20px;
     }
-    .footer{
-        width: 360px;
-        height: 45px;
-    } 
+    
 }
