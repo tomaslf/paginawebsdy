@@ -23,4 +23,7 @@
                     transition: 1s;
             }
 }
+#logoMenu{
+     @include formato(400px,80px);
+}
 

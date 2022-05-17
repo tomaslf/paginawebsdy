@@ -28,6 +28,10 @@ body {
     background-color: #D72323;
     transition: 1s; }
 
+#logoMenu {
+  height: 80px;
+  width: 400px; }
+
 #menuFooter ul li {
   display: flex;
   justify-content: end;
