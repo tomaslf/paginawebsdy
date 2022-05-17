@@ -67,12 +67,14 @@ body {
   width: 30px; }
 
 footer {
-  background-color: black; }
+  background-color: #641515; }
 
 @media (max-width: 360px) {
   #menuFooter ul li {
     display: flex;
-    justify-content: center; } }
+    justify-content: center; }
+  #redes {
+    margin-top: 10px; } }
 
 #nosotros {
   background-color: #F5EDED; }
