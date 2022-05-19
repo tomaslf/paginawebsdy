@@ -73,7 +73,7 @@ body {
 footer {
   background-color: #641515; }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   #menuFooter ul li {
     display: flex;
     justify-content: center; }
@@ -170,10 +170,9 @@ footer {
   width: 50px;
   margin-left: 1250px; }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   .principal__imagen {
     height: 150px;
-    width: 350px;
     margin-left: 0px; }
   #nosotros__imagen {
     display: none; }
@@ -185,31 +184,31 @@ footer {
     display: flex;
     flex-direction: column;
     align-content: space-between; }
-  .marcas__titulo {
-    font-size: 25px; }
+  #marcas__titulo, #proveedores__titulo {
+    font-size: 20px; }
   #marcas__imagenes {
     display: flex;
     flex-direction: column;
     align-content: space-between;
-    align-content: center;
-    width: 320px; }
+    align-content: center; }
   #marcas__imagenBmw {
-    width: 300px; }
+    width: 250px;
+    margin-left: 35px; }
   #marcas__imagenFord {
-    width: 300px;
-    margin-left: 0px; }
+    width: 290px;
+    margin-left: 25px; }
   #marcas__imagenChevrolet {
-    margin-top: 20px;
-    margin-left: 0px;
-    width: 300px; }
+    margin-top: 35px;
+    margin-left: 40px;
+    width: 250px; }
   .proveedores__imagenOne {
-    margin-left: 50px;
+    margin-left: 60px;
     margin-top: 20px; }
   .proveedores__imagen302, .proveedores__imagenone {
-    margin-left: 5px; }
-  .footer {
-    width: 360px;
-    height: 45px; } }
+    margin-left: 20px; } }
+
+#servicios {
+  overflow-x: hidden; }
 
 #servicios__titulo {
   display: flex;
@@ -249,6 +248,10 @@ footer {
   margin-left: 1250px;
   margin-bottom: 30px; }
 
+#sinPadding {
+  padding-right: 0px;
+  overflow-x: hidden; }
+
 #tituloGaleria {
   display: flex;
   justify-content: center;
@@ -259,7 +262,11 @@ footer {
   text-align: center;
   padding-top: 80px;
   margin-bottom: 20px;
-  background-image: linear-gradient(black, rgba(0, 0, 0, 0.507)); }
+  background-image: linear-gradient(black, rgba(0, 0, 0, 0.507));
+  padding-right: 0px; }
+
+#imagenes img {
+  padding-right: 0px; }
 
 #logoIg {
   height: 50px;
@@ -269,7 +276,8 @@ footer {
 
 #fondoContacto {
   background-image: linear-gradient(black, rgba(0, 0, 0, 0.411)), url(../images/sdypared.jpg);
-  background-position: center; }
+  background-position: center;
+  overflow-x: hidden; }
 
 #tituloContacto {
   font-style: normal;
@@ -300,16 +308,22 @@ form button {
   form label {
     font-size: 15px; } }
 
+#dondeEstamos {
+  padding-right: 0px;
+  overflow-x: hidden; }
+
 #tituloDonde {
   color: #F5EDED;
   font-size: 50px;
   margin-top: 50px;
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  padding-right: 0px; }
 
 #googleImg {
   height: 100px;
   width: 250px;
-  margin-top: 50px; }
+  margin-top: 50px;
+  padding-right: 0px; }
 
 #reviewImg {
   height: 150px;
@@ -324,6 +338,10 @@ form button {
   margin-left: 1250px;
   margin-bottom: 30px; }
 
-@media (max-width: 360px) {
+@media (max-width: 400px) {
   #reviewImg {
-    margin-left: 70px; } }
+    margin-left: 90px; }
+  #googleimg {
+    margin-left: 50px; }
+  #tituloDonde {
+    font-size: 30px; } }
