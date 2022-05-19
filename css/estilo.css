@@ -170,7 +170,7 @@ footer {
   width: 50px;
   margin-left: 1250px; }
 
-@media (max-width: 400px) {
+@media (max-width: 414px) {
   .principal__imagen {
     height: 150px;
     margin-left: 0px; }
@@ -274,6 +274,10 @@ footer {
   margin-left: 1250px;
   margin-bottom: 30px; }
 
+@media (max-width: 414px) {
+  #tituloGaleria {
+    font-size: 40px; } }
+
 #fondoContacto {
   background-image: linear-gradient(black, rgba(0, 0, 0, 0.411)), url(../images/sdypared.jpg);
   background-position: center;
@@ -338,10 +342,10 @@ form button {
   margin-left: 1250px;
   margin-bottom: 30px; }
 
-@media (max-width: 400px) {
+@media (max-width: 414px) {
   #reviewImg {
-    margin-left: 90px; }
+    margin-left: 100px; }
   #googleimg {
     margin-left: 50px; }
   #tituloDonde {
-    font-size: 30px; } }
+    font-size: 40px; } }
