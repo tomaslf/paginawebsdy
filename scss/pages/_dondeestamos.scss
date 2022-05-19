@@ -1,3 +1,7 @@
+#dondeEstamos{
+    padding-right: 0px;
+    overflow-x: hidden;
+}
 #tituloDonde{
     color: $color-letra;
     font-size: 50px;   
@@ -27,5 +31,8 @@
     }
     #googleimg{
         margin-left: 50px;
+    }
+    #tituloDonde{
+        font-size: 30px;
     }
 }

@@ -207,6 +207,9 @@ footer {
   .proveedores__imagen302, .proveedores__imagenone {
     margin-left: 20px; } }
 
+#servicios {
+  overflow-x: hidden; }
+
 #servicios__titulo {
   display: flex;
   justify-content: center;
@@ -246,7 +249,8 @@ footer {
   margin-bottom: 30px; }
 
 #sinPadding {
-  padding-right: 0px; }
+  padding-right: 0px;
+  overflow-x: hidden; }
 
 #tituloGaleria {
   display: flex;
@@ -272,7 +276,8 @@ footer {
 
 #fondoContacto {
   background-image: linear-gradient(black, rgba(0, 0, 0, 0.411)), url(../images/sdypared.jpg);
-  background-position: center; }
+  background-position: center;
+  overflow-x: hidden; }
 
 #tituloContacto {
   font-style: normal;
@@ -302,6 +307,10 @@ form button {
     margin-bottom: 350px; }
   form label {
     font-size: 15px; } }
+
+#dondeEstamos {
+  padding-right: 0px;
+  overflow-x: hidden; }
 
 #tituloDonde {
   color: #F5EDED;
@@ -333,4 +342,6 @@ form button {
   #reviewImg {
     margin-left: 90px; }
   #googleimg {
-    margin-left: 50px; } }
+    margin-left: 50px; }
+  #tituloDonde {
+    font-size: 30px; } }

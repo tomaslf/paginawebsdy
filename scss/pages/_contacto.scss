@@ -1,6 +1,7 @@
 #fondoContacto{
     background-image:linear-gradient(black,rgba(0, 0, 0, 0.411)), url(../images/sdypared.jpg);
-    background-position:center;    
+    background-position:center;
+    overflow-x: hidden;    
 }
 #tituloContacto{
     font-style: normal;
