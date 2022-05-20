@@ -202,10 +202,11 @@ footer {
     margin-left: 40px;
     width: 250px; }
   .proveedores__imagenOne {
-    margin-left: 60px;
+    margin-left: 70px;
     margin-top: 20px; }
   .proveedores__imagen302, .proveedores__imagenone {
-    margin-left: 20px; } }
+    margin-left: 20px;
+    margin-top: 30px; } }
 
 #servicios {
   overflow-x: hidden; }
