@@ -2,8 +2,7 @@
 #nosotros{
     background-color: $color-letra;
 }
-.principal__imagen{
-    @include formato(1345px, 500px);
+#principal__imagen{
     margin-top: 5px;
     margin-left: 1px;
 }
@@ -88,7 +87,12 @@
 }
 #logoIg{
     @include formato(50px, 50px);
-    margin-left: 1250px; 
+
+}
+@media (max-width: 1268px){
+    #nosotros__imagen{
+        display: none;
+    }
 }
 @media  (max-width: 414px){
     .principal__imagen{

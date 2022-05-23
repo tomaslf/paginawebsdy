@@ -24,11 +24,9 @@ form{
 }
 
 #logoIg{
-    @include formato(50px, 50px);
-    margin-left: 1250px;
-    margin-bottom: 30px;    
+    @include formato(50px, 50px);  
 }
-@media (max-width: 360px){
+@media (max-width: 414px){
     #formulario{
         margin-top: 50px;
         margin-bottom: 350px;
