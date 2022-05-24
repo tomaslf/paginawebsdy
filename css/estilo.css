@@ -172,9 +172,9 @@ footer {
     display: none; } }
 
 @media (max-width: 414px) {
-  .principal__imagen {
-    height: 150px;
-    margin-left: 0px; }
+  #principal__imagen {
+    width: 414px;
+    overflow-x: hidden; }
   #nosotros__imagen {
     display: none; }
   .nosotros__p {
