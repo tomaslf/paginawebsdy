@@ -1,4 +1,4 @@
-<img src="images/sdylogo1.png" width=250px height=100px>
+<img src="images/LOGO SDY.png" width=250px height=100px>
 
 # Proyecto Página Web SDY Suspensión
 
