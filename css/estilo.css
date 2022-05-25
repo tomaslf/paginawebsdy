@@ -322,6 +322,14 @@ form button {
   margin-bottom: 30px;
   padding-right: 0px; }
 
+.videoReview {
+  height: 350px;
+  width: 450px;
+  box-shadow: 0px 10px 10px black;
+  transition: 1s; }
+  .videoReview:hover {
+    transform: scale(1.1, 1.1); }
+
 #googleImg {
   height: 100px;
   width: 250px;

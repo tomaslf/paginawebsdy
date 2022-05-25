@@ -9,6 +9,14 @@
     margin-bottom: 30px;
     padding-right: 0px;
 }
+.videoReview{
+    @include formato(450px,350px);
+    box-shadow: 0px 10px 10px black;
+    transition: 1s;
+            &:hover{
+                transform: scale(1.1, 1.1);
+    }
+}
 #googleImg{
     @include formato(250px, 100px);
     margin-top: 50px;
