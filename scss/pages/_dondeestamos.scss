@@ -9,6 +9,9 @@
     margin-bottom: 30px;
     padding-right: 0px;
 }
+.google{
+    background-image: linear-gradient(to bottom, $color-principal, $color-letra);
+}
 .videoReview{
     @include formato(450px,350px);
     box-shadow: 0px 10px 10px black;
@@ -22,24 +25,19 @@
     margin-top: 50px;
     padding-right: 0px;
 }
-#reviewImg{
-    @include formato(200px, 150px);
-    border: solid black 1px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
 #logoIg{
     @include formato(50px, 50px);
     margin-bottom: 30px;    
 }
 @media (max-width: 414px){
-    #reviewImg{
-        margin-left: 100px;  
-    }
     #googleimg{
         margin-left: 50px;
     }
     #tituloDonde{
         font-size: 40px;
+    }
+    .videoReview{
+        width: 400px;
+        margin-right: 6px;
     }
 }
