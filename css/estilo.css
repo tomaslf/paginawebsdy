@@ -322,18 +322,22 @@ form button {
   margin-bottom: 30px;
   padding-right: 0px; }
 
+.google {
+  background-image: linear-gradient(to bottom, #3E3636, #F5EDED); }
+
+.videoReview {
+  height: 350px;
+  width: 450px;
+  box-shadow: 0px 10px 10px black;
+  transition: 1s; }
+  .videoReview:hover {
+    transform: scale(1.1, 1.1); }
+
 #googleImg {
   height: 100px;
   width: 250px;
   margin-top: 50px;
   padding-right: 0px; }
-
-#reviewImg {
-  height: 150px;
-  width: 200px;
-  border: solid black 1px;
-  border-radius: 10px;
-  margin-bottom: 20px; }
 
 #logoIg {
   height: 50px;
@@ -341,9 +345,10 @@ form button {
   margin-bottom: 30px; }
 
 @media (max-width: 414px) {
-  #reviewImg {
-    margin-left: 100px; }
   #googleimg {
     margin-left: 50px; }
   #tituloDonde {
-    font-size: 40px; } }
+    font-size: 40px; }
+  .videoReview {
+    width: 400px;
+    margin-right: 6px; } }
