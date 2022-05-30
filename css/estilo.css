@@ -207,10 +207,10 @@ footer {
     margin-top: 35px;
     margin-left: 40px;
     width: 250px; }
-  .proveedores__imagenOne {
+  #proveedores__imagenOne {
     margin-left: 70px;
     margin-top: 20px; }
-  .proveedores__imagen302 {
+  #proveedores__imagen302, #proveedores__imagenOne {
     margin-left: 20px;
     margin-top: 30px; } }
 
