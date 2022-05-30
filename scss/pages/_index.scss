@@ -89,7 +89,7 @@
     margin-bottom: 15x;
 }
 #proveedores__imagen302{
-    @include formato(350px, 100px);
+    @include formato(300px, 100px);
 }
 #proveedores__imagenOne{
     @extend #proveedores__imagen302 ;
