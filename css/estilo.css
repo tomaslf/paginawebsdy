@@ -124,6 +124,8 @@ footer {
   margin-top: 20px;
   display: flex;
   justify-content: space-between; }
+  #marcas__imagenes .col {
+    margin-left: 30px; }
 
 #marcas__imagenFord {
   height: 200px;
@@ -197,6 +199,8 @@ footer {
     flex-direction: column;
     align-content: space-between;
     align-content: center; }
+    #marcas__imagenes .col {
+      margin-left: 0px; }
   #marcas__imagenBmw {
     width: 250px;
     margin-left: 35px; }

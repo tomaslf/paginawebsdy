@@ -44,6 +44,9 @@
     margin-top: 20px;
     display: flex;
     justify-content: space-between;
+            .col{
+                margin-left: 30px;
+            }
 }
 #marcas__imagenFord{
     @include formato(350px, 200px);     
@@ -126,6 +129,9 @@
         flex-direction: column;
         align-content: space-between;
         align-content: center;
+                .col{
+                    margin-left: 0px;
+                }
     }
     #marcas__imagenBmw{
         width: 250px;
