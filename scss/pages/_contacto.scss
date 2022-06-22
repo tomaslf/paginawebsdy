@@ -22,10 +22,6 @@ form{
 
     }
 }
-
-#logoIg{
-    @include formato(50px, 50px);  
-}
 @media (max-width: 414px){
     #formulario{
         margin-top: 50px;

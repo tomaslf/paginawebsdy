@@ -94,10 +94,6 @@
 #proveedores__imagenOne{
     @extend #proveedores__imagen302 ;
 }
-#logoIg{
-    @include formato(50px, 50px);
-
-}
 @media (max-width: 1268px){
     #nosotros__imagen{
         display: none;
