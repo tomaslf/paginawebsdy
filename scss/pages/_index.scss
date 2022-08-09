@@ -88,11 +88,8 @@
     margin-top: 40px;
     margin-bottom: 15x;
 }
-#proveedores__imagen302{
-    @include formato(300px, 100px);
-}
 #proveedores__imagenOne{
-    @extend #proveedores__imagen302 ;
+    @include formato(350px, 130px) ;
 }
 @media (max-width: 1268px){
     #nosotros__imagen{
