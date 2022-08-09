@@ -192,7 +192,7 @@ footer {
   #nosotros__imagen {
     display: none; }
   .nosotros__titulo {
-    font-size: 20px; }
+    font-size: 40px; }
   .nosotros__p {
     font-size: 12px;
     margin-top: 2px;
@@ -202,8 +202,8 @@ footer {
     display: flex;
     flex-direction: column;
     align-content: space-between; }
-  #marcas__titulo, #proveedores__titulo {
-    font-size: 20px; }
+  #proveedores__titulo {
+    font-size: 30px; }
   #marcas__imagenes {
     display: flex;
     flex-direction: column;
@@ -222,8 +222,8 @@ footer {
     margin-left: 40px;
     width: 250px; }
   #proveedores__imagenOne {
-    margin-left: 70px;
-    margin-top: 20px; }
+    width: 300px;
+    height: 100px; }
   #proveedores__imagen302 {
     margin-left: 20px;
     margin-top: 30px; } }

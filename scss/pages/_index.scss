@@ -109,7 +109,7 @@
         display: none;
     }
     .nosotros__titulo{
-        font-size: 20px;
+        font-size: 40px;
     }
     .nosotros__p{
         font-size: 12px;
@@ -122,8 +122,8 @@
         flex-direction: column;
         align-content: space-between;
     }
-    #marcas__titulo{
-        font-size: 20px;
+    #proveedores__titulo{
+        font-size: 30px;
     }
     #marcas__imagenes{
         display: flex;
@@ -148,8 +148,9 @@
         width: 250px;
     }
     #proveedores__imagenOne{
-        margin-left: 70px;
-        margin-top: 20px;
+        width: 300px;
+        height: 100px;
+        
     }
     #proveedores__imagen302{
         margin-left: 20px;
