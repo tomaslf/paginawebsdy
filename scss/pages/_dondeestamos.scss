@@ -3,8 +3,9 @@
     overflow-x: hidden;
 }
 #tituloDonde{
+    font-family: 'Bebas Neue', cursive;
     color: $color-letra;
-    font-size: 70px;   
+    font-size: 65px;   
     margin-top: 50px;
     margin-bottom: 30px;
     padding-right: 0px;
@@ -12,6 +13,7 @@
 #encontranos{
     color: $color-letra;
         h2{
+            font-family: 'Bebas Neue', cursive;
             font-size: 32px;
             text-decoration: underline;
         }
