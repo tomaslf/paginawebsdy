@@ -1,6 +1,7 @@
 
 #nosotros{
     background-color: $color-letra;
+    margin-right: 0px;
 }
 #principal__imagen{
     margin-top: 5px;
@@ -11,19 +12,21 @@
    @include formato(430px, 350px);
    margin-top: 45px;
    margin-bottom: 50px;
-   margin-left: 15px;
+   margin-left: 5px;
    border-radius: 15px;
   
 }
 .nosotros__titulo{
+    font-family: 'Bebas Neue', cursive;
     text-align: center;
     font-size: 45px;
     margin-top: 40px;
+    
     color: $color-principal;
 }
 .nosotros__p{
     text-align: justify;
-    margin-left: 10px;
+    margin-left: 15px;
     margin-bottom: 60px;
     font-size: 20px;
     color: $color-principal;
@@ -34,10 +37,11 @@
     background-position: center;
 }
 #marcas__titulo{
-    font-style: normal;
+    font-family: 'Bebas Neue', cursive;
+   
     text-align: center;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 45px;
     color: $color-letra;
 }
 #marcas__imagenes{

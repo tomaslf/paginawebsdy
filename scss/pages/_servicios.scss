@@ -2,6 +2,7 @@
     overflow-x: hidden;
 }
 #servicios__titulo{
+    font-family: 'Bebas Neue', cursive;
     display: flex;
     justify-content: center;
     height: 250px;
@@ -9,7 +10,7 @@
     margin-bottom: 20px;
     font-style: normal;
     color: $color-letra;
-    font-size: 50px;
+    font-size: 65px;
     background-image: linear-gradient(black, rgba(0, 0, 0, 0.507)), url(../images/tablero.jpg);
     background-position: center;    
 }
@@ -19,7 +20,8 @@
     }
         h2{
             color: $color-letra;
-            font-size: 25px;
+            font-size: 35px;
+            font-family: 'Bebas Neue', cursive;
         }
         .card-text{
             font-size: 15px;
