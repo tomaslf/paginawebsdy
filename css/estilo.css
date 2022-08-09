@@ -189,7 +189,10 @@ footer {
     overflow-x: hidden; }
   #nosotros__imagen {
     display: none; }
+  .nosotros__titulo {
+    font-size: 20px; }
   .nosotros__p {
+    font-size: 12px;
     margin-top: 2px;
     margin-bottom: 6px;
     margin-right: 30px; }

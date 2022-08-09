@@ -52,30 +52,18 @@
      data-aos-duration="2000" class="row col-lg-12 d-flex justify-content-center mt-5">
             <div class="col-lg-4">
                 <label for="nombreInput" class="form-label mt-3">Nombre</label>
-                <input type="text" class="form-control form-control-lg" id="nombreInput" placeholder="Nombre">
+                <input type="text" class="form-control form-control-lg"  id="nombreInput" placeholder="Nombre" >
                 <label for="apellidoInput" class="form-label mt-3">Apellido</label>
-                <input type="text" class="form-control form-control-lg" id="apellidoInput" placeholder="Apellido">
+                <input type="text" class="form-control form-control-lg" value="apellido" id="apellidoInput" placeholder="Apellido">
                 <label for="emailInput" class="form-label mt-3">Email</label>
-                <input type="email" class="form-control form-control-lg" id="emailInput" placeholder="Email">
+                <input value="email" type="email" class="form-control form-control-lg"  id="emailInput" placeholder="Email">
                 <label for="telefonoInput" class="form-label mt-3">Teléfono</label>
-                <input type="number" class="form-control form-control-lg" id="telefonoInput" placeholder="Teléfono">
-                <label for="form-check" class="form-label mt-3">Cómo desea ser contactado?</label>
-              <div class="form-check mt-3">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                  <label class="form-check-label" for="flexCheckDefault">
-                    Teléfono
-                  </label>
-              </div>
-              <div class="form-check mt-3 mb-3">
-                  <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
-                  <label class="form-check-label" for="flexCheckChecked">
-                    Email
-                  </label>
-              </div>
+                <input type="number" class="form-control form-control-lg" value="telefono" id="telefonoInput" placeholder="Teléfono">
+                
             </div>
           <div class="col-lg-5 sm-12">
                 <label for="consulta" class="form-label mt-3">Ingrese su Consulta</label>
-                <textarea class="form-control form-control-lg" name="textarea" id="consulta" placeholder="Indicar marca, año y modelo" cols="30" rows="10"></textarea>
+                <textarea class="form-control form-control-lg" value="mensaje" name="textarea" id="consulta" placeholder="Indicar marca, año y modelo" cols="30" rows="13"></textarea>
           </div>
           <div class="col-4 sm-6 d-flex justify-content-center">
             <button class="btn btn-primary btn-lg" type="submit">Enviar</button>
@@ -127,5 +115,6 @@
         AOS.init();
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="../js/main.js"></script>
 </body>
 </html>
