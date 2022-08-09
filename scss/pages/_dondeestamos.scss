@@ -4,10 +4,20 @@
 }
 #tituloDonde{
     color: $color-letra;
-    font-size: 50px;   
+    font-size: 70px;   
     margin-top: 50px;
     margin-bottom: 30px;
     padding-right: 0px;
+}
+#encontranos{
+    color: $color-letra;
+        h2{
+            font-size: 32px;
+            text-decoration: underline;
+        }
+        p{
+            font-size: 20px;
+        }
 }
 .google{
     background-image: linear-gradient(to bottom, $color-principal, $color-letra);

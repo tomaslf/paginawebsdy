@@ -3,10 +3,10 @@ html {
 
 body {
   background-color: #3E3636;
-  font-family: 'Anton', sans-serif; }
+  font-family: 'Montserrat', sans-serif; }
 
 #inicio {
-  margin-left: 40px;
+  margin-left: 80px;
   font-size: 21px;
   text-decoration: none;
   padding: 8px;
@@ -90,7 +90,8 @@ footer {
   z-index: 100; }
 
 #nosotros {
-  background-color: #F5EDED; }
+  background-color: #F5EDED;
+  margin-right: 0px; }
 
 #principal__imagen {
   margin-top: 5px;
@@ -101,10 +102,11 @@ footer {
   width: 430px;
   margin-top: 45px;
   margin-bottom: 50px;
-  margin-left: 15px;
+  margin-left: 5px;
   border-radius: 15px; }
 
 .nosotros__titulo {
+  font-family: 'Bebas Neue', cursive;
   text-align: center;
   font-size: 45px;
   margin-top: 40px;
@@ -112,7 +114,7 @@ footer {
 
 .nosotros__p {
   text-align: justify;
-  margin-left: 10px;
+  margin-left: 15px;
   margin-bottom: 60px;
   font-size: 20px;
   color: #3E3636; }
@@ -123,10 +125,10 @@ footer {
   background-position: center; }
 
 #marcas__titulo, #proveedores__titulo {
-  font-style: normal;
+  font-family: 'Bebas Neue', cursive;
   text-align: center;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 45px;
   color: #F5EDED; }
 
 #marcas__imagenes {
@@ -319,10 +321,18 @@ form button {
 
 #tituloDonde {
   color: #F5EDED;
-  font-size: 50px;
+  font-size: 70px;
   margin-top: 50px;
   margin-bottom: 30px;
   padding-right: 0px; }
+
+#encontranos {
+  color: #F5EDED; }
+  #encontranos h2 {
+    font-size: 32px;
+    text-decoration: underline; }
+  #encontranos p {
+    font-size: 20px; }
 
 .google {
   background-image: linear-gradient(to bottom, #3E3636, #F5EDED); }
