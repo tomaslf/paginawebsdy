@@ -191,7 +191,9 @@ footer {
     display: none; }
   #nosotros {
     display: flex;
-    justify-content: center; } }
+    justify-content: center; }
+    #nosotros p {
+      margin-left: 0px; } }
 
 @media (max-width: 414px) {
   #principal__imagen {

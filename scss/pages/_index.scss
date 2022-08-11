@@ -108,6 +108,9 @@
     #nosotros{
         display: flex;
         justify-content: center;
+        p{
+            margin-left: 0px;
+        }
     }
 }
 @media  (max-width: 414px){
