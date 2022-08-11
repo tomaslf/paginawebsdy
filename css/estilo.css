@@ -333,6 +333,7 @@ form button {
   overflow-x: hidden; }
 
 #tituloDonde {
+  background-image: linear-gradient(to bottom, #3E3636, #641515);
   font-family: 'Bebas Neue', cursive;
   color: #F5EDED;
   font-size: 65px;

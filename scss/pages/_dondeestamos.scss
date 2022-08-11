@@ -3,8 +3,10 @@
     overflow-x: hidden;
 }
 #tituloDonde{
+    background-image: linear-gradient(to bottom, $color-principal, #641515);
     font-family: 'Bebas Neue', cursive;
     color: $color-letra;
+    
     font-size: 65px;   
     margin-top: 50px;
     margin-bottom: 30px;
