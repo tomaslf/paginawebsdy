@@ -7,7 +7,7 @@ body {
 
 #inicio {
   margin-left: 80px;
-  font-size: 21px;
+  font-size: 18px;
   text-decoration: none;
   padding: 8px;
   color: #F5EDED;
@@ -18,7 +18,7 @@ body {
     transition: 1s; }
 
 #header nav ul li a {
-  font-size: 21px;
+  font-size: 18px;
   text-decoration: none;
   padding: 8px;
   color: #F5EDED;
