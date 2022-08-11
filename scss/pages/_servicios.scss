@@ -28,12 +28,12 @@
             text-align: justify;
             color: $color-letra;
         }
+        .btn{
+            a{
+                text-decoration: none;
+            }
+        }
 }
 .card-img-top{
     height: 550px;
 }
-.btn{
-    margin-top: 50px;
-    display: flex;
-    justify-content: center;
-} 

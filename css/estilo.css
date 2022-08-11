@@ -259,13 +259,11 @@ footer {
   text-align: justify;
   color: #F5EDED; }
 
+.card-group .btn a {
+  text-decoration: none; }
+
 .card-img-top {
   height: 550px; }
-
-.btn {
-  margin-top: 50px;
-  display: flex;
-  justify-content: center; }
 
 #sinPadding {
   padding-right: 0px;
