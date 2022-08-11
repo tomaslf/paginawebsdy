@@ -119,6 +119,11 @@ footer {
   font-size: 20px;
   color: #3E3636; }
 
+#botonNosotros {
+  display: flex;
+  justify-content: center;
+  text-decoration: none; }
+
 #marcas {
   padding: 30px;
   background-image: linear-gradient(black, rgba(0, 0, 0, 0.507)), url(../images/bancodetrabajo.jpg);
@@ -183,7 +188,10 @@ footer {
 
 @media (max-width: 1268px) {
   #nosotros__imagen {
-    display: none; } }
+    display: none; }
+  #nosotros {
+    display: flex;
+    justify-content: center; } }
 
 @media (max-width: 414px) {
   #principal__imagen {

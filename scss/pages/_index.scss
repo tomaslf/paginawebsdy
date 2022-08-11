@@ -31,6 +31,12 @@
     font-size: 20px;
     color: $color-principal;
 }
+#botonNosotros{
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+
 #marcas{
     padding: 30px;
     background-image: linear-gradient(black, rgba(0, 0, 0, 0.507)), url(../images/bancodetrabajo.jpg);
@@ -98,6 +104,10 @@
 @media (max-width: 1268px){
     #nosotros__imagen{
         display: none;
+    }
+    #nosotros{
+        display: flex;
+        justify-content: center;
     }
 }
 @media  (max-width: 414px){
